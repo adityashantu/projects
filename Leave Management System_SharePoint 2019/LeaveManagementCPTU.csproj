@@ -1,0 +1,240 @@
+﻿<Project ToolsVersion="16.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD353F21-7FFF-4AEB-A030-6EE1F1B030C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeaveManagementCPTU</RootNamespace>
+    <AssemblyName>LeaveManagementCPTU</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>19.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.1</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Server, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Server.UserProfiles, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client.UserProfiles, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client.UserProfiles.Portable, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Linq, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucAdminPanel.ascx.cs">
+      <DependentUpon>ucAdminPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucAdminPanel.ascx.designer.cs">
+      <DependentUpon>ucAdminPanel.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucAdminReport.ascx.cs">
+      <DependentUpon>ucAdminReport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucAdminReport.ascx.designer.cs">
+      <DependentUpon>ucAdminReport.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucIndex.ascx.cs">
+      <DependentUpon>ucIndex.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucIndex.ascx.designer.cs">
+      <DependentUpon>ucIndex.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucLeaveUpdate.ascx.cs">
+      <DependentUpon>ucLeaveUpdate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucLeaveUpdate.ascx.designer.cs">
+      <DependentUpon>ucLeaveUpdate.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucManagerApproval.ascx.cs">
+      <DependentUpon>ucManagerApproval.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucManagerApproval.ascx.designer.cs">
+      <DependentUpon>ucManagerApproval.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucManagerMain.ascx.cs">
+      <DependentUpon>ucManagerMain.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucManagerMain.ascx.designer.cs">
+      <DependentUpon>ucManagerMain.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucMyRequests.ascx.cs">
+      <DependentUpon>ucMyRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucMyRequests.ascx.designer.cs">
+      <DependentUpon>ucMyRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucNewRequest.ascx.cs">
+      <DependentUpon>ucNewRequest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucNewRequest.ascx.designer.cs">
+      <DependentUpon>ucNewRequest.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\EmailUserInfo.cs" />
+    <Compile Include="Data\LeaveManagementCPTU.cs" />
+    <Compile Include="Data\Reviewer.cs" />
+    <Compile Include="Helpers\Helper.cs" />
+    <Compile Include="Helpers\UserProfileHelper.cs" />
+    <Compile Include="Layouts\LeaveManagementCPTU\AdminPanel.aspx.cs">
+      <DependentUpon>AdminPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\AdminPanel.aspx.designer.cs">
+      <DependentUpon>AdminPanel.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\AdminReport.aspx.cs">
+      <DependentUpon>AdminReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\AdminReport.aspx.designer.cs">
+      <DependentUpon>AdminReport.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\LeaveUpdate.aspx.cs">
+      <DependentUpon>LeaveUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\LeaveUpdate.aspx.designer.cs">
+      <DependentUpon>LeaveUpdate.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\ManagerApproval.aspx.cs">
+      <DependentUpon>ManagerApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\ManagerApproval.aspx.designer.cs">
+      <DependentUpon>ManagerApproval.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\ManagerMain.aspx.cs">
+      <DependentUpon>ManagerMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\ManagerMain.aspx.designer.cs">
+      <DependentUpon>ManagerMain.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\MyRequests.aspx.cs">
+      <DependentUpon>MyRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\MyRequests.aspx.designer.cs">
+      <DependentUpon>MyRequests.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\NewRequest.aspx.cs">
+      <DependentUpon>NewRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeaveManagementCPTU\NewRequest.aspx.designer.cs">
+      <DependentUpon>NewRequest.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\EmailServiceCPTU.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f97a0dff-752b-4d6f-9194-f16e69c45a25}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c6b11687-c29e-438b-85fd-1545cbaee0e0}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{3192c29e-2f45-49ea-8f3b-292b730bbcc9}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucAdminPanel.ascx" />
+    <Content Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucAdminReport.ascx" />
+    <Content Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucIndex.ascx" />
+    <Content Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucLeaveUpdate.ascx" />
+    <Content Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucManagerApproval.ascx" />
+    <Content Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucManagerMain.ascx" />
+    <Content Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucMyRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\LeaveManagementCPTU\ucNewRequest.ascx" />
+    <Content Include="Layouts\LeaveManagementCPTU\AdminPanel.aspx" />
+    <Content Include="Layouts\LeaveManagementCPTU\AdminReport.aspx" />
+    <Content Include="Layouts\LeaveManagementCPTU\Design\CSS\bootstrap.min.css" />
+    <Content Include="Layouts\LeaveManagementCPTU\Design\CSS\custom.css" />
+    <Content Include="Layouts\LeaveManagementCPTU\Design\CSS\toastr.min.css" />
+    <Content Include="Layouts\LeaveManagementCPTU\Design\SCRIPT\bootstrap.min.js" />
+    <Content Include="Layouts\LeaveManagementCPTU\Design\SCRIPT\jquery.min.js" />
+    <Content Include="Layouts\LeaveManagementCPTU\Design\SCRIPT\toastr.min.js" />
+    <Content Include="Layouts\LeaveManagementCPTU\Index.aspx" />
+    <Content Include="Layouts\LeaveManagementCPTU\LeaveUpdate.aspx" />
+    <Content Include="Layouts\LeaveManagementCPTU\ManagerApproval.aspx" />
+    <Content Include="Layouts\LeaveManagementCPTU\ManagerMain.aspx" />
+    <Content Include="Layouts\LeaveManagementCPTU\MyRequests.aspx" />
+    <Content Include="Layouts\LeaveManagementCPTU\NewRequest.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

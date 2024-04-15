@@ -1,0 +1,16 @@
+.form-header {
+    height: 34px;
+    border: 1px solid #0072c6;
+    padding: 7px;
+    background: #0072c6;
+    color: white;
+    margin-bottom:15px;
+}
+.border {
+    border: 1px solid #c1bfbf;
+    margin-bottom:-35px;
+}
+
+.btn-margin {
+    margin: 0px 0px 15px 15px;
+}

@@ -1,0 +1,118 @@
+E:\Project\LeaveManagementCPTU\bin\Release\LeaveManagementCPTU.dll
+E:\Project\LeaveManagementCPTU\bin\Release\LeaveManagementCPTU.pdb
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.UserProfiles.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.ServerRuntime.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Linq.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Taxonomy.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.UserProfiles.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Runtime.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Security.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Web.Administration.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Newtonsoft.Json.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Web.CommandUI.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.IdentityModel.Extensions.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.BusinessData.dll
+E:\Project\LeaveManagementCPTU\bin\Release\DocumentFormat.OpenXml.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.Applications.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Taxonomy.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Portal.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Publishing.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.Extended.Administration.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.Extended.Administration.ResourceStorage.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Search.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.mshtml.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.Extended.Administration.Common.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.Connector.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.AnalysisServices.AdomdClient.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.DocumentManagement.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Policy.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.SecureStoreService.Server.Security.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Directory.dll
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.UserProfiles.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Linq.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Taxonomy.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Runtime.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Security.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.BusinessData.xml
+E:\Project\LeaveManagementCPTU\bin\Release\DocumentFormat.OpenXml.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Portal.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Publishing.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.Connector.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.DocumentManagement.xml
+E:\Project\LeaveManagementCPTU\bin\Release\Microsoft.Office.Policy.xml
+E:\Project\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.csproj.AssemblyReference.cache
+E:\Project\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.csproj.CoreCompileInputs.cache
+E:\Project\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.csproj.CopyComplete
+E:\Project\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.dll
+E:\Project\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.pdb
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\LeaveManagementCPTU.dll.config
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\LeaveManagementCPTU.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\LeaveManagementCPTU.pdb
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.UserProfiles.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.ServerRuntime.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.UserProfiles.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.UserProfiles.Portable.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Linq.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Web.Administration.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.Applications.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Security.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Taxonomy.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Runtime.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Newtonsoft.Json.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Web.CommandUI.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.IdentityModel.Extensions.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.BusinessData.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\DocumentFormat.OpenXml.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Runtime.Portable.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Portable.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Taxonomy.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Portal.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Publishing.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.Extended.Administration.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.Extended.Administration.ResourceStorage.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Search.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.mshtml.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.Extended.Administration.Common.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.Connector.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.AnalysisServices.AdomdClient.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.DocumentManagement.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Policy.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.SecureStoreService.Server.Security.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Directory.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.UserProfiles.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Linq.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Security.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Taxonomy.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Client.Runtime.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Search.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.BusinessData.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\DocumentFormat.OpenXml.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Portal.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.SharePoint.Publishing.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Server.Search.Connector.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.DocumentManagement.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\bin\Release\Microsoft.Office.Policy.xml
+D:\Projects\Leave Management System\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.csproj.CoreCompileInputs.cache
+D:\Projects\Leave Management System\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.csproj.CopyComplete
+D:\Projects\Leave Management System\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.dll
+D:\Projects\Leave Management System\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.pdb
+D:\Projects\Leave Management System\LeaveManagementCPTU\obj\Release\LeaveManagementCPTU.csproj.AssemblyReference.cache

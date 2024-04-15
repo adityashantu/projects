@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="3192c29e-2f45-49ea-8f3b-292b730bbcc9" SharePointProductVersion="19.0">
+  <Assemblies>
+    <Assembly Location="LeaveManagementCPTU.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\AdminPanel.aspx" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\AdminReport.aspx" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\Design\CSS\bootstrap.min.css" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\Design\CSS\custom.css" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\Design\CSS\toastr.min.css" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\Design\SCRIPT\bootstrap.min.js" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\Design\SCRIPT\jquery.min.js" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\Design\SCRIPT\toastr.min.js" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\Index.aspx" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\LeaveUpdate.aspx" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\ManagerApproval.aspx" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\ManagerMain.aspx" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\MyRequests.aspx" />
+    <TemplateFile Location="Layouts\LeaveManagementCPTU\NewRequest.aspx" />
+    <TemplateFile Location="CONTROLTEMPLATES\LeaveManagementCPTU\ucAdminPanel.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\LeaveManagementCPTU\ucAdminReport.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\LeaveManagementCPTU\ucIndex.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\LeaveManagementCPTU\ucLeaveUpdate.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\LeaveManagementCPTU\ucManagerApproval.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\LeaveManagementCPTU\ucManagerMain.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\LeaveManagementCPTU\ucMyRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\LeaveManagementCPTU\ucNewRequest.ascx" />
+  </TemplateFiles>
+</Solution>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3192c29e-2f45-49ea-8f3b-292b730bbcc9" solutionId="3192c29e-2f45-49ea-8f3b-292b730bbcc9" resetWebServer="false" sharePointProductVersion="19.0" name="LeaveManagementCPTU" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="c6b11687-c29e-438b-85fd-1545cbaee0e0" />
+    <projectItemReference itemId="f97a0dff-752b-4d6f-9194-f16e69c45a25" />
+  </projectItems>
+</package>
