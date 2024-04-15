@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" ActivateOnDefault="FALSE" AlwaysForceInstall="TRUE" Id="7bf9e564-146a-469c-9b3c-348822888188" ReceiverAssembly="CPTUDocumentApprovalWorkflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2eb8c4dfd12a657f" ReceiverClass="CPTUDocumentApprovalWorkflow.Features.DATimerJobFeature.DATimerJobFeatureEventReceiver" Scope="WebApplication" Title="DA Timer Job Feature"></Feature>

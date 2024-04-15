@@ -1,0 +1,263 @@
+﻿<Project ToolsVersion="16.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8B335D07-B9C3-4E30-BEA7-09F81382243E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CPTUDocumentApprovalWorkflow</RootNamespace>
+    <AssemblyName>CPTUDocumentApprovalWorkflow</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetOfficeVersion>19.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.1</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>16.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>bin\Debug\CPTUDocumentApprovalWorkflow.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Server.UserProfiles, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Linq, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucAllRequests.ascx.cs">
+      <DependentUpon>ucAllRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucAllRequests.ascx.designer.cs">
+      <DependentUpon>ucAllRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucIndex.ascx.cs">
+      <DependentUpon>ucIndex.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucIndex.ascx.designer.cs">
+      <DependentUpon>ucIndex.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucMyPendingTask.ascx.cs">
+      <DependentUpon>ucMyPendingTask.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucMyPendingTask.ascx.designer.cs">
+      <DependentUpon>ucMyPendingTask.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucMyRequest.ascx.cs">
+      <DependentUpon>ucMyRequest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucMyRequest.ascx.designer.cs">
+      <DependentUpon>ucMyRequest.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucNewRequest.ascx.cs">
+      <DependentUpon>ucNewRequest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucNewRequest.ascx.designer.cs">
+      <DependentUpon>ucNewRequest.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucRequestView.ascx.cs">
+      <DependentUpon>ucRequestView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\DocumentApproval\ucRequestView.ascx.designer.cs">
+      <DependentUpon>ucRequestView.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DATimerJob.cs" />
+    <Compile Include="Features\DATimerJobFeature\DATimerJobFeature.EventReceiver.cs">
+      <DependentUpon>DATimerJobFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\MyPendingTask.aspx.cs">
+      <DependentUpon>MyPendingTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\MyPendingTask.aspx.designer.cs">
+      <DependentUpon>MyPendingTask.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\RequestView.aspx.cs">
+      <DependentUpon>RequestView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\RequestView.aspx.designer.cs">
+      <DependentUpon>RequestView.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DocumentApproval.cs" />
+    <Compile Include="Models\EmailUserInfo.cs" />
+    <Compile Include="Service\EmailService.cs" />
+    <Compile Include="Service\TimerJobService.cs" />
+    <Content Include="CONTROLTEMPLATES\DocumentApproval\ucAllRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\DocumentApproval\ucIndex.ascx" />
+    <Content Include="CONTROLTEMPLATES\DocumentApproval\ucMyPendingTask.ascx" />
+    <Content Include="CONTROLTEMPLATES\DocumentApproval\ucMyRequest.ascx" />
+    <Content Include="CONTROLTEMPLATES\DocumentApproval\ucNewRequest.ascx" />
+    <Content Include="CONTROLTEMPLATES\DocumentApproval\ucRequestView.ascx" />
+    <Content Include="Features\DATimerJobFeature\DATimerJobFeature.Template.xml">
+      <DependentUpon>DATimerJobFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\Content\css\bootstrap.css" />
+    <Content Include="Layouts\Content\css\jquery-ui.css" />
+    <Content Include="Layouts\Content\css\jquery.dataTables.min.css" />
+    <Content Include="Layouts\Content\css\site.css" />
+    <Compile Include="Helper\UserProfileHelper.cs" />
+    <Compile Include="Layouts\DocumentApproval\AllRequest.aspx.cs">
+      <DependentUpon>AllRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\AllRequest.aspx.designer.cs">
+      <DependentUpon>AllRequest.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\MyRequest.aspx.cs">
+      <DependentUpon>MyRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\MyRequest.aspx.designer.cs">
+      <DependentUpon>MyRequest.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\NewRequest.aspx.cs">
+      <DependentUpon>NewRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\DocumentApproval\NewRequest.aspx.designer.cs">
+      <DependentUpon>NewRequest.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Reviewer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Layouts\Content\fontawesome\css\all.css" />
+    <Content Include="Layouts\Content\fontawesome\css\all.min.css" />
+    <Content Include="Layouts\Content\fontawesome\css\brands.css" />
+    <Content Include="Layouts\Content\fontawesome\css\brands.min.css" />
+    <Content Include="Layouts\Content\fontawesome\css\fontawesome.css" />
+    <Content Include="Layouts\Content\fontawesome\css\fontawesome.min.css" />
+    <Content Include="Layouts\Content\fontawesome\css\regular.css" />
+    <Content Include="Layouts\Content\fontawesome\css\regular.min.css" />
+    <Content Include="Layouts\Content\fontawesome\css\solid.css" />
+    <Content Include="Layouts\Content\fontawesome\css\solid.min.css" />
+    <Content Include="Layouts\Content\fontawesome\css\svg-with-js.css" />
+    <Content Include="Layouts\Content\fontawesome\css\svg-with-js.min.css" />
+    <Content Include="Layouts\Content\fontawesome\css\v4-font-face.css" />
+    <Content Include="Layouts\Content\fontawesome\css\v4-font-face.min.css" />
+    <Content Include="Layouts\Content\fontawesome\css\v4-shims.css" />
+    <Content Include="Layouts\Content\fontawesome\css\v4-shims.min.css" />
+    <Content Include="Layouts\Content\fontawesome\css\v5-font-face.css" />
+    <Content Include="Layouts\Content\fontawesome\css\v5-font-face.min.css" />
+    <Content Include="Layouts\Content\fontawesome\js\all.js" />
+    <Content Include="Layouts\Content\fontawesome\js\all.min.js" />
+    <Content Include="Layouts\Content\fontawesome\js\brands.js" />
+    <Content Include="Layouts\Content\fontawesome\js\brands.min.js" />
+    <Content Include="Layouts\Content\fontawesome\js\conflict-detection.js" />
+    <Content Include="Layouts\Content\fontawesome\js\conflict-detection.min.js" />
+    <Content Include="Layouts\Content\fontawesome\js\fontawesome.js" />
+    <Content Include="Layouts\Content\fontawesome\js\fontawesome.min.js" />
+    <Content Include="Layouts\Content\fontawesome\js\regular.js" />
+    <Content Include="Layouts\Content\fontawesome\js\regular.min.js" />
+    <Content Include="Layouts\Content\fontawesome\js\solid.js" />
+    <Content Include="Layouts\Content\fontawesome\js\solid.min.js" />
+    <Content Include="Layouts\Content\fontawesome\js\v4-shims.js" />
+    <Content Include="Layouts\Content\fontawesome\js\v4-shims.min.js" />
+    <Content Include="Layouts\Content\fontawesome\LICENSE.txt" />
+    <Content Include="Layouts\Content\img\calendar.gif" />
+    <Content Include="Layouts\Content\img\delete-img.png" />
+    <Content Include="Layouts\Content\js\jquery-ui.js" />
+    <Content Include="Layouts\DocumentApproval\RequestView.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8541ef95-5fe1-4c82-83ac-8f0e7cae1312}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\DATimerJobFeature\DATimerJobFeature.feature">
+      <FeatureId>{598c7370-f659-4362-a908-d3357eba5ada}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\Content\fontawesome\webfonts\fa-brands-400.ttf" />
+    <None Include="Layouts\Content\fontawesome\webfonts\fa-brands-400.woff2" />
+    <None Include="Layouts\Content\fontawesome\webfonts\fa-regular-400.ttf" />
+    <None Include="Layouts\Content\fontawesome\webfonts\fa-regular-400.woff2" />
+    <None Include="Layouts\Content\fontawesome\webfonts\fa-solid-900.ttf" />
+    <None Include="Layouts\Content\fontawesome\webfonts\fa-solid-900.woff2" />
+    <None Include="Layouts\Content\fontawesome\webfonts\fa-v4compatibility.ttf" />
+    <None Include="Layouts\Content\fontawesome\webfonts\fa-v4compatibility.woff2" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0028e22e-335a-4791-93b0-819b0ea6bf23}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{299e1d8f-1b56-4cd3-ab92-677af7d13418}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TimerJob\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Layouts\Content\css\bootstrap.min.css" />
+    <Content Include="Layouts\Content\css\sweetalert.css" />
+    <Content Include="Layouts\Content\js\bootstrap.bundle.min.js" />
+    <Content Include="Layouts\Content\js\jquery.dataTables.min.js" />
+    <Content Include="Layouts\Content\js\jquery.min.js" />
+    <Content Include="Layouts\Content\js\jquery.MultiFile.js" />
+    <Content Include="Layouts\Content\js\sweetalert.js" />
+    <Content Include="Layouts\DocumentApproval\AllRequest.aspx" />
+    <Content Include="Layouts\DocumentApproval\Index.aspx" />
+    <Content Include="Layouts\DocumentApproval\MyPendingTask.aspx" />
+    <Content Include="Layouts\DocumentApproval\MyRequest.aspx" />
+    <Content Include="Layouts\DocumentApproval\NewRequest.aspx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

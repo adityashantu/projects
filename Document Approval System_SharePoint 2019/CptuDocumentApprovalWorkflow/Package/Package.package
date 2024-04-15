@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="299e1d8f-1b56-4cd3-ab92-677af7d13418" solutionId="299e1d8f-1b56-4cd3-ab92-677af7d13418" resetWebServer="false" sharePointProductVersion="16.0" name="CPTUDocumentApprovalWorkflow" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="598c7370-f659-4362-a908-d3357eba5ada" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="0028e22e-335a-4791-93b0-819b0ea6bf23" />
+    <projectItemReference itemId="8541ef95-5fe1-4c82-83ac-8f0e7cae1312" />
+  </projectItems>
+</package>

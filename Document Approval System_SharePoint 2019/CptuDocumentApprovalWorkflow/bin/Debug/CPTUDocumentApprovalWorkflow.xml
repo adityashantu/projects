@@ -1,0 +1,611 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CPTUDocumentApprovalWorkflow</name>
+    </assembly>
+    <members>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucAllRequests.txtRequestNumber">
+            <summary>
+            txtRequestNumber control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucAllRequests.ddlStatus">
+            <summary>
+            ddlStatus control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucAllRequests.dtpFromDate">
+            <summary>
+            dtpFromDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucAllRequests.dtpToDate">
+            <summary>
+            dtpToDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucAllRequests.btnSearch">
+            <summary>
+            btnSearch control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucAllRequests.btnReset">
+            <summary>
+            btnReset control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucAllRequests.msgLabel">
+            <summary>
+            msgLabel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucAllRequests.gvAllReqItems">
+            <summary>
+            gvAllReqItems control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucMyPendingTask.msgLabel">
+            <summary>
+            msgLabel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucMyPendingTask.gvMyPendingTask">
+            <summary>
+            gvMyPendingTask control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucMyRequest.gvMyrequests">
+            <summary>
+            gvMyrequests control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.pnlShow">
+            <summary>
+            pnlShow control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtRequestNo">
+            <summary>
+            txtRequestNo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtRequestDate">
+            <summary>
+            txtRequestDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtRequesterName">
+            <summary>
+            txtRequesterName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtRequesterDepartment">
+            <summary>
+            txtRequesterDepartment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.pnlShow2">
+            <summary>
+            pnlShow2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtRequesterDesignation">
+            <summary>
+            txtRequesterDesignation control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtRequesterEmail">
+            <summary>
+            txtRequesterEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtComment">
+            <summary>
+            txtComment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.pblUploadAttachment">
+            <summary>
+            pblUploadAttachment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.fileUploadControl">
+            <summary>
+            fileUploadControl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.btnAttachment">
+            <summary>
+            btnAttachment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.RegularExpressionValidator1">
+            <summary>
+            RegularExpressionValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.gvAttachments">
+            <summary>
+            gvAttachments control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.pnlReviewerShow">
+            <summary>
+            pnlReviewerShow control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.reviewerPeoplePicker">
+            <summary>
+            reviewerPeoplePicker control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.btnAddReviewer">
+            <summary>
+            btnAddReviewer control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.gvReviewerList">
+            <summary>
+            gvReviewerList control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.approverPeoplePicker">
+            <summary>
+            approverPeoplePicker control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.pnlReviewerViewMode">
+            <summary>
+            pnlReviewerViewMode control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.gvReviewerView">
+            <summary>
+            gvReviewerView control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.lblApproverName">
+            <summary>
+            lblApproverName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.pnlApprovalHistory">
+            <summary>
+            pnlApprovalHistory control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.gvApprovalHistory">
+            <summary>
+            gvApprovalHistory control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.btnSubmit">
+            <summary>
+            btnSubmit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.pnlReviewer">
+            <summary>
+            pnlReviewer control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.ddlReviewerApproval">
+            <summary>
+            ddlReviewerApproval control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtReviewerComment">
+            <summary>
+            txtReviewerComment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.btnSubmitApproval">
+            <summary>
+            btnSubmitApproval control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.pnlApprover">
+            <summary>
+            pnlApprover control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.ddlApproverApproval">
+            <summary>
+            ddlApproverApproval control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.txtApproverComment">
+            <summary>
+            txtApproverComment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucNewRequest.Button1">
+            <summary>
+            Button1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.txtRequestNo">
+            <summary>
+            txtRequestNo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.txtRequestDate">
+            <summary>
+            txtRequestDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.txtRequesterName">
+            <summary>
+            txtRequesterName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.txtRequesterEmail">
+            <summary>
+            txtRequesterEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.txtRequesterDepartment">
+            <summary>
+            txtRequesterDepartment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.txtRequesterDesignation">
+            <summary>
+            txtRequesterDesignation control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.txtComment">
+            <summary>
+            txtComment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.gvAttachments">
+            <summary>
+            gvAttachments control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.pblApprovalHistory">
+            <summary>
+            pblApprovalHistory control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.CONTROLTEMPLATES.DocumentApproval.ucRequestView.gvApprovalHistory">
+            <summary>
+            gvApprovalHistory control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CPTUDocumentApprovalWorkflow.Features.DATimerJobFeature.DATimerJobFeatureEventReceiver">
+            <summary>
+            This class handles events raised during feature activation, deactivation, installation, uninstallation, and upgrade.
+            </summary>
+            <remarks>
+            The GUID attached to this class may be used during packaging and should not be modified.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.Layouts.DocumentApproval.Index.ucIndex">
+            <summary>
+            ucIndex control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.Layouts.DocumentApproval.MyPendingTask.ucMyPendingTask">
+            <summary>
+            ucMyPendingTask control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.Layouts.DocumentApproval.RequestView.ucRequestView">
+            <summary>
+            ucRequestView control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.Layouts.DocumentApproval.AllRequest.ucAllRequests">
+            <summary>
+            ucAllRequests control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.Layouts.DocumentApproval.MyRequest.ucMyRequest">
+            <summary>
+            ucMyRequest control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CPTUDocumentApprovalWorkflow.Layouts.DocumentApproval.NewRequest.ucNewRequest">
+            <summary>
+            ucNewRequest control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="P:nDocumentApproval.DocumentApprovalDataContext.StyleLibrary">
+            <summary>
+            Use the style library to store style sheets, such as CSS or XSL files. The style sheets in this gallery can be used by this site or any of its subsites.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.Item">
+            <summary>
+            Create a new list item.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.Document">
+            <summary>
+            Create a new document.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.WikiPage">
+            <summary>
+            Create a new wiki page.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.DAApprovalHistoryModel">
+            <summary>
+            Create a new list item.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.DAReviewerModel">
+            <summary>
+            Create a new list item.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.DAReviewerActionModel">
+            <summary>
+            Create a new list item.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.DefaultReviewer">
+            <summary>
+            Create a new list item.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.DocumentApprovalModel">
+            <summary>
+            Create a new list item.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.DAAttachmentsDocument">
+            <summary>
+            Create a new document.
+            </summary>
+        </member>
+        <member name="T:nDocumentApproval.SitePage">
+            <summary>
+            Create a new site page.
+            </summary>
+        </member>
+    </members>
+</doc>

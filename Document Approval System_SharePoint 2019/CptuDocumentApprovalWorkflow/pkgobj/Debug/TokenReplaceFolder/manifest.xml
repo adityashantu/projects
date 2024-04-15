@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="299e1d8f-1b56-4cd3-ab92-677af7d13418" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="CPTUDocumentApprovalWorkflow.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\Content\fontawesome\webfonts\fa-brands-400.ttf" />
+    <TemplateFile Location="Layouts\Content\fontawesome\webfonts\fa-brands-400.woff2" />
+    <TemplateFile Location="Layouts\Content\fontawesome\webfonts\fa-regular-400.ttf" />
+    <TemplateFile Location="Layouts\Content\fontawesome\webfonts\fa-regular-400.woff2" />
+    <TemplateFile Location="Layouts\Content\fontawesome\webfonts\fa-solid-900.ttf" />
+    <TemplateFile Location="Layouts\Content\fontawesome\webfonts\fa-solid-900.woff2" />
+    <TemplateFile Location="Layouts\Content\fontawesome\webfonts\fa-v4compatibility.ttf" />
+    <TemplateFile Location="Layouts\Content\fontawesome\webfonts\fa-v4compatibility.woff2" />
+    <TemplateFile Location="Layouts\Content\css\bootstrap.css" />
+    <TemplateFile Location="Layouts\Content\css\jquery-ui.css" />
+    <TemplateFile Location="Layouts\Content\css\jquery.dataTables.min.css" />
+    <TemplateFile Location="Layouts\Content\css\site.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\all.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\all.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\brands.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\brands.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\fontawesome.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\fontawesome.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\regular.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\regular.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\solid.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\solid.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\svg-with-js.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\svg-with-js.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\v4-font-face.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\v4-font-face.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\v4-shims.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\v4-shims.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\v5-font-face.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\css\v5-font-face.min.css" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\all.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\all.min.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\brands.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\brands.min.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\conflict-detection.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\conflict-detection.min.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\fontawesome.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\fontawesome.min.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\regular.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\regular.min.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\solid.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\solid.min.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\v4-shims.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\js\v4-shims.min.js" />
+    <TemplateFile Location="Layouts\Content\fontawesome\LICENSE.txt" />
+    <TemplateFile Location="Layouts\Content\img\calendar.gif" />
+    <TemplateFile Location="Layouts\Content\img\delete-img.png" />
+    <TemplateFile Location="Layouts\Content\js\jquery-ui.js" />
+    <TemplateFile Location="Layouts\DocumentApproval\RequestView.aspx" />
+    <TemplateFile Location="Layouts\Content\css\bootstrap.min.css" />
+    <TemplateFile Location="Layouts\Content\css\sweetalert.css" />
+    <TemplateFile Location="Layouts\Content\js\bootstrap.bundle.min.js" />
+    <TemplateFile Location="Layouts\Content\js\jquery.dataTables.min.js" />
+    <TemplateFile Location="Layouts\Content\js\jquery.min.js" />
+    <TemplateFile Location="Layouts\Content\js\jquery.MultiFile.js" />
+    <TemplateFile Location="Layouts\Content\js\sweetalert.js" />
+    <TemplateFile Location="Layouts\DocumentApproval\AllRequest.aspx" />
+    <TemplateFile Location="Layouts\DocumentApproval\Index.aspx" />
+    <TemplateFile Location="Layouts\DocumentApproval\MyPendingTask.aspx" />
+    <TemplateFile Location="Layouts\DocumentApproval\MyRequest.aspx" />
+    <TemplateFile Location="Layouts\DocumentApproval\NewRequest.aspx" />
+    <TemplateFile Location="CONTROLTEMPLATES\DocumentApproval\ucAllRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\DocumentApproval\ucIndex.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\DocumentApproval\ucMyPendingTask.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\DocumentApproval\ucMyRequest.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\DocumentApproval\ucNewRequest.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\DocumentApproval\ucRequestView.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="CPTUDocumentApprovalWorkflow_DATimerJobFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>
