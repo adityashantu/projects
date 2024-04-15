@@ -1,0 +1,3 @@
+1. cd C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\BIN
+
+2. SPMetal /web:http://spapp01/leavemanagementsystem /code:D:\Projects\Leave Management System\EntityClass\LeaveManagementCPTU.cs /namespace:LeaveManagementCPTU.CONTROLTEMPLATES.LeaveManagementCPTU /parameters:D:\Projects\Leave Management System\EntityClass\Params.xml

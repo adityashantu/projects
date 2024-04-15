@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Web AccessModifier="Internal" xmlns="http://schemas.microsoft.com/SharePoint/2009/spmetal">
+  <List Name="LMEmployeeLeavesMain">
+    <ContentType Name="Item" Class="LMEmployeeLeavesMains">
+    </ContentType>
+  </List>
+  <List Name="LMLeaveRequest">
+    <ContentType Name="Item" Class="LMLeavesRequests">
+    </ContentType>
+  </List>
+<List Name="LMAdmin">
+    <ContentType Name="Item" Class="LMAdmins">
+    </ContentType>
+  </List>
+<List Name="LMLeave">
+    <ContentType Name="Item" Class="LMLeaves">
+    </ContentType>
+  </List>
+  <ExcludeOtherLists />
+</Web>
